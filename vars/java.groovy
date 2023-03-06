@@ -5,13 +5,7 @@ def call(){
         agent any
 
 
-        stages {
-            stage('code quality') {
-                steps {
-                    echo 'code quality'
-                    sh 'env'
-                }
-            }
+         common.codeQuality()
 
             stage('Style Checks') {
                 when {
@@ -60,4 +54,4 @@ def call(){
             }
         }
     }
-}
+
