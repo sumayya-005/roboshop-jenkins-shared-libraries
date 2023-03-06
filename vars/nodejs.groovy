@@ -4,7 +4,7 @@ def call(){
 
         agent any
 
-        
+
         stages {
             stage('code quality') {
                 steps {
