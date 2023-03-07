@@ -15,3 +15,21 @@ def codeChecks() {
         }
     }
 }
+
+
+def artifacts() {
+    if ( TAG_NAME ==~ ".*" ) {
+        stage(' Download Dependencies') {
+            echo 'Download Dependencies'
+        }
+
+        stage('Prepare Artifacts') {
+            echo 'Prepare Artifacts'
+        }
+
+        stage('Publish Artifacts') {
+            echo 'Publish Artifacts'
+        }
+    }
+
+}
