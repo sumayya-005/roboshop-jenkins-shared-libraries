@@ -1,8 +1,9 @@
-def call(){
+def call() {
+
     node {
         common.codeQuality()
     }
-    }
+}
 
 
 
