@@ -1,3 +1,9 @@
+def codeCheckout() {
+    
+}
+
+
+
 def codeQuality() {
     stage('code quality') {
         withCredentials([usernamePassword(credentialsId: 'SONAR', passwordVariable: 'sonarPass', usernameVariable: 'sonarUser')]) {
