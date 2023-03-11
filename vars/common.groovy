@@ -2,7 +2,7 @@ def codeCheckout() {
     stage('Code Checkout') {
         sh 'find . | sed 1d |xargs rm -rf'
             git branch: 'main', url: "https://github.com/sumayya-005/${COMPONENT}.git"
-        }
+    }
 }
 
 
