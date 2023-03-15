@@ -9,4 +9,4 @@ def call() {
                 mail bcc: '', body: "Build Failed ${RUN_DISPLAY_URL}", cc: '', from: 'sumayyashaik1005@gmail.com', replyTo: '', subject: 'BUILD FAILURE', to: 'sumayyashaik1005@gmail.com'
             }
         }
-}   
+}
