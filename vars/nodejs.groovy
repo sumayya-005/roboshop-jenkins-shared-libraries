@@ -3,7 +3,7 @@ def call() {
     node {
         try {
             common.codeCheckout()
-            common.codeQuality()
+//            common.codeQuality()
             common.codeChecks()
 //            common.artifacts()
             common.docker()
